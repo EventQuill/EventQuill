@@ -1,0 +1,50 @@
+.event-details-container {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px; /* Limit the max width of the container */
+}
+
+.event-details-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.event-details-image {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 500px; /* Limit maximum width to 500px */
+  max-height: 300px; /* Limit maximum height to 300px */
+  border-radius: 12px;
+  display: block; /* Center the image */
+  margin: 0 auto; /* Center the image */
+}
+
+.event-details-info {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #555;
+}
+
+.event-details-info p {
+  margin-bottom: 10px;
+}
+
+.event-details-info strong {
+  color: #333;
+}
+
+.event-details{
+  display: flex;
+  justify-content: space-between;
+}
+
+.registerbtn{
+  margin: 0 2rem 2rem 0;
+}

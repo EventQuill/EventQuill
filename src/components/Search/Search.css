@@ -1,0 +1,30 @@
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .input-group input {
+    flex-grow: 1;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .input-group-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .input-group input::placeholder {
+    color: #aaa;
+  }

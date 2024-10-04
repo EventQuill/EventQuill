@@ -1,0 +1,48 @@
+.event-types-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    background: url('../../assets/bg-1.jpg');
+    height: 90vh;
+    background-size: cover;
+  }
+  
+  .event-card {
+    margin-top: 30vh;
+    width: 18rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .event-card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .event-card-body {
+    padding: 1rem;
+  }
+  
+  .event-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .event-card-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  

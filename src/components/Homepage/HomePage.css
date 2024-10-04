@@ -1,0 +1,18 @@
+
+.search-ele{
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.popular-events{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+.popular-title{
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

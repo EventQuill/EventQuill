@@ -1,0 +1,26 @@
+.card-body {
+    padding: 0.5rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .btn {
+    padding: 0.25rem;
+    font-size: 0.85rem;
+    margin-left: 1rem;
+  }
+  
